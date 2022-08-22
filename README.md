@@ -1,6 +1,6 @@
-# jdsearch-22
+# jd-pretrain-data
 
-jdsearch-22 is an open-source dataset for user intent detection and embedding retrieval which is collected from search system of JD.com. Due to business information confidentiality, we only show **encoded id** of search query, item title and product category id. The project contains 5 tab-separated values (TSV) files, each of which has the following headers:
+jd-pretrain-data is an open-source dataset for user intent detection and embedding retrieval which is collected from search system of JD.com. Due to business information confidentiality, we only show **encoded id** of search query, item title and product category id. The project contains 5 tab-separated values (TSV) files, each of which has the following headers:
 
 * pretrain_data.tsv: item title \t product category
 * finetune_data_uid.tsv: query \t aggregated product categories
